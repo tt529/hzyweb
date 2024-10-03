@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://static.igem.wiki/teams/5160/small-logo.png"/>
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+     <!-- swiper CSS -->
+     <link rel="stylesheet" href="static/swiper-bundle.min.css">
+     <!-- 引入atropos -->
+    <link href="static/atropos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="static/style.css" rel="stylesheet">
+
+    <title>About | SZU-China - iGEM 2024</title>
+   
+</head>
+<body>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Header -->
+
+  
+
+
+
+
+
+
+<!--  -->
+
+<section class="main_holder">
+
+  <div>
+        Hello
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
+  
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="static/bootstrap.bundle.min.js"></script>
+  <!-- swiper js-->
+  <script src="static/swiper-bundle.min.js"></script>
+  <!-- 引入gsap -->
+  <script src="static/gsap.min.js"></script>
+  <!-- 引入scroll -->
+  <script src="static/ScrollTrigger.min.js"></script>
+
+
+  
+</body>
+</html>
