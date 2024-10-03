@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://static.igem.wiki/teams/5160/small-logo.png"/>
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="{{ url_for('static', filename = 'bootstrap.min.css') }}" rel="stylesheet">
+     <!-- swiper CSS -->
+     <link rel="stylesheet" href="{{ url_for('static', filename = 'swiper-bundle.min.css') }}">
+     <!-- 引入atropos -->
+    <link href="{{ url_for('static', filename = 'atropos.css') }}" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', filename = 'style.css') }}" rel="stylesheet">
+
+    <title>{% block title %}{% endblock %} | SZU-China - iGEM 2024</title>
+   
+</head>
+<body>
+
+
+  {% include 'menu.html' %}
+  <!-- Header -->
+
+  {% block page_content %}{% endblock %}
+
+  <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
+  {% include 'footer.html' %}
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="{{ url_for('static', filename = 'bootstrap.bundle.min.js') }}"></script>
+  <!-- swiper js-->
+  <script src="{{ url_for('static', filename = 'swiper-bundle.min.js') }}"></script>
+  <!-- 引入gsap -->
+  <script src="{{ url_for('static', filename = 'gsap.min.js') }}"></script>
+  <!-- 引入scroll -->
+  <script src="{{ url_for('static', filename = 'ScrollTrigger.min.js') }}"></script>
+
+
+  
+</body>
+</html>
